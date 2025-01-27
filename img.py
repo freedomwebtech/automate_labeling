@@ -17,7 +17,7 @@ cpt = 0
 maxFrames = 50  # You want a maximum of 50 frames
 
 count = 0
-cap = cv2.VideoCapture(0)  # Open the webcam
+cap = cv2.VideoCapture('helmet.avi')  # Open the webcam
 
 while cpt < maxFrames:
     ret, frame = cap.read()  # Capture a frame
